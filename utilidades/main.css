@@ -89,3 +89,75 @@ h1, h3, h4, h5, p {
    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
    padding: 44px 0 22px 0;
  }
+
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body{
+    font-family: "Arial", Helvetica Neue;
+    font-size: 22spx;
+    font-weight: normal;
+    line-height: 30px;    
+    
+    
+}
+
+
+h1, h2, h3, h4 {
+  color: 
+      #648880;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 64px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a:hover {
+  color: #a9b2b9;
+}
+a {
+  color: #648880;
+}
+
+.tagline {
+  margin: 66px 0 22px 0;
+}
+
+.primary-nav {
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 34px;
+  line-height: 30px;
+  float: center;
+  word-spacing: .50em;
+
+}
+
+p {
+  text-align: justify;
+  word-spacing: .10em;
+  /*text-indent: 20px;*/ 
+
+}
+
