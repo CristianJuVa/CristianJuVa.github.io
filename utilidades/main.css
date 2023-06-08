@@ -1,9 +1,3 @@
-p {
-  color: olivedrab;
-  font-size: 18px;
-  display: inline-block;
-}
-
 /*
   ========================================
   Grid
@@ -17,6 +11,11 @@ p {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+/*
+  ========================================
+  Grid
+  ========================================
+*/
 
 .container {
   color: black
@@ -26,20 +25,50 @@ p {
   width: 960px;
 }
 
+/*
+  ========================================
+  /*paragraphs
+  ========================================
+*/
 .you{
     color: black
-   
 }
+
+p {
+  color: olivedrab;
+  font-size: 18px;
+  display: inline-block;
+  text-align: justify;
+  word-spacing: .10em;
+  /*text-indent: 20px;*/ 
+}
+
+body{
+    font-family: "Arial", Helvetica Neue;
+    font-size: 22spx;
+    font-weight: normal;
+    line-height: 30px;    
+}
+/*
+  ========================================
+  /*paragraphs
+  ========================================
+*/
 
 /*
   ========================================
-  Typography
+  Grid
   ========================================
 */
 
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
+/*
+  ========================================
+  Grid
+  ========================================
+*/
 
 
 
@@ -67,12 +96,6 @@ h1, h3, h4, h5, p {
   margin: 0 auto;
   width: 960px;
 }
-.container {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-
 
 .row,
 .row-alt {
@@ -96,14 +119,6 @@ h1, h3, h4, h5, p {
   Custom styles
   ========================================
 */
-
-body{
-    font-family: "Arial", Helvetica Neue;
-    font-size: 22spx;
-    font-weight: normal;
-    line-height: 30px;    
-}
-
 
 h1, h2, h3, h4 {
   color: 
@@ -149,13 +164,6 @@ a {
   line-height: 30px;
   float: center;
   word-spacing: .50em;
-
 }
 
-p {
-  text-align: justify;
-  word-spacing: .10em;
-  /*text-indent: 20px;*/ 
-
-}
 
