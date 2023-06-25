@@ -1,67 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        
-        <title>Cristian Juarez | Scientist</title>
-        <link rel="stylesheet" href="utilidades/main.css">
-    </head>
+<html lang="es">
     
-    <header class="primary-nav">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="personal.html">About me</a>
-            <a target="_blank" href="utilidades/CristianJuarez-CV.pdf">CV</a>
-        </nav>
-            <!---<section class="container"> </section>--->
-            <section class="container"> 
-            <h1>   <a href="index.html"> Cristian Juarez</a> </h1>
-          
-            <h3> Pátzcuaro, Mich</h3>
-                <hr>
-            <h3 class="tagline">June &ndash;2nd</h3>
-            </section>
-    </header>
 
-<!------------Cuerpo de la página WEB----------->
-    <body>    
-        <section class="container"> 
-        <p class="you"> I am currently a graduate of the National Autonomous University of Mexico (UNAM) in the Earth Sciences programme.  
-        My research interests cover a wide range of topics in Earth Sciences, in particular geophysics, seismology and risk reduction of natural disasters, such as earthquakes and storms. Recently I have become very interested in the applications of seismology and geophysics for detecting nuclear tests. 
-        <br> 
-        <!--<br>-->     
-        I decided to start this website as a personal project to share a bit about myself through blogging and also to share some of the professional achievements I hope to accomplish in a few years. I hope you find something interesting on this website.  
-        <br>
-        To view the source code for this website and other projects of mine go to my <a href="https://github.com/CristianJuVa">github.  </a> </p>
-        </section>
-        
-        
-        <section class="grid">
-        <section class="col-1-3">
-            <a href="speakers.html">
-            
-            <h2>Blogs</h2>
-            </a>
-            <p>In this section, you will find some personal blogs</p>
-            </section><section class="col-1-3">
-            <a href="projects.html">
-            <h2>Projects</h2>
-            </a>
-            <p>In this section, you will find my most relevant projects.</p>
-            </section>
-
-<!------Final de la página------------------------------------->
-        <footer class="container">
-            If you wihs to contact me here is my email address: <a href=mailto:cristian.jv653@gmail.com> cristian.jv653@gmail.com  </a>   
-            <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="personal.html">About me</a>
-            <a href=mailto:cristian.jv653@gmail.com>Contact</a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Cristian Juarez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROJECTS</a></li>
+                    <li><a href="#blog" onclick="seleccionar()">BLOG</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                </ul>
             </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    
+    </div>
+    
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/perfil.PNG" alt="">
+            </div>
+            <h1>Cristian Juarez</h1>
+            <h2>Statistics and NLP </h2>
+            <div class="redes">  
+                <a href="https://github.com/CristianJuVa"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:cristian.jv653@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+     <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About me</h2>
+            <p>Dear reader,</p> 
             
-        </footer>
-        </section>
-    </body>     
-</html>
+            <p>I give you a warm welcome to my personal website. I am Cristian Juarez and I am a graduate of UNAM. I really enjoy learning about technology and science and how we can use them to address the current and future problems we face and will face as a society. During my bachelor’s thesis, I carried out a statistical analysis of the seismic swarms that occurred in Uruapan, Michoacan, between 2020 and 2022. I also analysed the interevent time series of the swarm and applied a multifractal analysis. This helped me to describe the current and future behaviour of the time series.  </p>
+            
+            <p>I am a <b>loyal follower of open-source technology</b> and also an <b>advocate for free access to education </b> for everyone.  I hope to contribute a little through this website, its blogs and in the near future by supporting anyone who needs it. Currently, I am learning about <b>Natural Language Processing (NLP)</b> and will collaborate on some interesting projects of sentimental analysis.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal information</h3>
+                    <ul>
+                        
+                        <h4>Cristian Alberto Juarez Valle</h4>
+                        
+                    
+                        <li>
+                            <strong>Email</strong>
+                        <li>
+                              cristian.jv653@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direction</strong>
+                        </li>
+                        <li>
+                            Michoacán, México
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <button>
+                <a target="_blank" href="docs/CristianJuarez-CV.pdf">Curriculum Vitae</a> <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Earth Sciences</h4>
+                        <span class="casa">National Autonomous University of Mexico (UNAM)</span>
+                        <span class="fecha">2019 - 2022</span>
+                        <p>Graduate</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                    <!--------
+                     <div class="item izq">
+                        <h4>OTRO APARTADO PARA AGREGAR EDUCACIÓN</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    ------->
+
+                </div>
+            
+                    
+                <div class="col derecha">
+                    <h3>Experience</h3>
+                    <div class="item der">
+                        <h4>Bachelor's thesis</h4>
+                        <span class="casa">UNAM</span>
+                        <span class="fecha">September 2022 - May 2023</span>
+                        <p> “Multifractal analysis of the 2020-2021 seismic swarm in Uruapan, Michoacán”.</p>
+                        <p>Carried out a statistical and geospatial study of the swarms that occurred in Uruapan, Michoacan,
+                         and applied a multifractal analysis to understand the current and future behaviour of the time
+                         series of the swarm.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="item der">
+                        <h4>Intership</h4>
+                        <span class="casa">LAIDEA (UNAM)</span>
+                        <span class="fecha">March 2022 - September 2022</span>
+                        <p>Designed and applied an innovative method to understand the relationship between rocks’ electrical and physicomechanical properties.</p>
+                        <p> Data visualisation and interpretation of research results.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+         </div>
+               
+    </section>    
+    
+    <!-- CONTACTO -->
+     <section id="contacto">
+     <div class="contact-info">
+          <div class="card">
+            <i class="card-icon far fa-envelope"></i>
+            <p>cristian.jv653@gmail.com</p>
+          </div>
+
+          <div class="card">
+            <i class="card-icon fas fa-phone"></i>
+            <p>+000000000000</p>
+          </div>      
+
+          <div class="card">
+                <i class="card-icon fas fa-map-marker-alt"></i>
+                <p>Michocán, México</p>
+          </div>
+    </div>      
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/CristianJuVa"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:cristian.jv653@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    
+    </footer>
+<\body>
+<\html>
